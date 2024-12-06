@@ -1,0 +1,18 @@
+.form-select{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.button-container{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.form-container{
+    margin-left: 34%;
+    margin-top: 7%;
+    align-items: center;
+}
+

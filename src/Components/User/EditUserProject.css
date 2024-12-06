@@ -1,0 +1,42 @@
+.edit-user-project {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .task-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    margin: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .task-item label{
+    margin: 12px;
+  }
+  
+  .status-dropdown {
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

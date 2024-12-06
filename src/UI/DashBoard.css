@@ -1,0 +1,44 @@
+.dashboard {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Fill the entire viewport height */
+    margin: 0; 
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.options {
+    border-radius: 12px;
+    background-color: #202123; /* Dark sidebar background */
+    color: #fff; /* White text */
+    width: 20%;
+    height: 98%;
+    padding: 16px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sidebar shadow */
+    box-sizing: border-box;
+    overflow-y: auto; /* Scrollable content if options exceed height */
+}
+
+.options::before {
+    content: ''; /* Decorative stripe */
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: #3e3f43; /* Stripe color */
+    margin-bottom: 16px;
+}
+
+.data {
+    background-color: #f4f4f5; /* Light background for the main content */
+    color: #333; /* Dark text */
+    width: 80%; /* Remaining space */
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto; /* Scrollable if content overflows */
+    box-sizing: border-box;
+    border-left: 1px solid #ddd; /* Optional separator */
+}

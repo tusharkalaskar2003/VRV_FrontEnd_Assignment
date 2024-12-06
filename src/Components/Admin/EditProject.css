@@ -1,0 +1,43 @@
+.admin-projects{
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    gap: 12px; /* Spacing between items */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.project{
+    background-color: black;
+    margin-top: 12px;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.project{
+    background-color: white;
+    height: 210px;
+    width: 260px;
+    padding: 16px;
+    gap: 12px;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    margin: 12px;
+    border: 3px solid black;
+}
+
+.project label{
+    margin: 12px;
+}
+
+.edit-project-button{
+    width: 80px; 
+    height: 45px; 
+    background-color: black;
+    color: white;
+    align-self: center;
+    border-radius: 12px;
+}
+

@@ -1,0 +1,85 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f0f8ff, #e6f7ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .header-content {
+    max-width: 50%;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5em;
+    color: #004d99;
+    margin-bottom: 10px;
+  }
+  
+  .header-content p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .header-graphic .graphic-image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .button {
+    background-color: #0066cc;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #004d99;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .welcome-message p {
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  .homepage-footer {
+    margin-top: auto;
+    background: #004d99;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+  

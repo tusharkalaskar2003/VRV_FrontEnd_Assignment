@@ -1,0 +1,226 @@
+{
+    "users": [
+        {
+            "username": "Lezley Benzes",
+            "email": "sairaj@mail.com",
+            "password": "password123",
+            "role": "manager"
+        },
+        {
+            "username": "sanket ganorkar",
+            "email": "sanket@gmail.com",
+            "password": "securePass",
+            "role": "developer"
+        }
+    ],
+    "admin": [
+        {
+            "username": "sairaj rajput",
+            "password": "12345",
+            "email": "sairajrajput6@gmail.com"
+        },
+        {
+            "username": "sairaj desouza",
+            "password": "12345",
+            "email": "saorak"
+        }
+    ],
+    "projects": [
+        {
+            "Ending_Date": "1998-07-30",
+            "ProjectStatus": "Completed",
+            "Project_Manager": "Lezley Benzes",
+            "Project_manager_mail": "LezelyBenzes@gmail.com",
+            "Starting_Date": "1994-06-01",
+            "Users": [
+                {
+                    "email": "sairaj@mail.com",
+                    "progress": "0%",
+                    "role": "manager",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Ongoing",
+                            "task_name": "Hi"
+                        }
+                    ],
+                    "username": "Lezley Benzes"
+                },
+                {
+                    "email": "sanket@gmail.com",
+                    "progress": "0%",
+                    "role": "developer",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "See you"
+                        }
+                    ],
+                    "username": "sanket ganorkar"
+                }
+            ],
+            "admin": "sairaj rajput",
+            "description": "Best game ever i played yet.",
+            "name": "GTA III Definative Edition"
+        },
+        {
+            "Ending_Date": "12/07/2012",
+            "ProjectStatus": "Completed",
+            "Project_Manager": "Lezley Benzes",
+            "Project_manager_mail": "LezelyBenzes@gmail.com",
+            "Starting_Date": "01/01/2009",
+            "admin": "sairaj",
+            "Users": [
+                {
+                    "email": "sairaj@mail.com",
+                    "progress": "0%",
+                    "role": "manager",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Ongoing",
+                            "task_name": "Hi"
+                        }
+                    ],
+                    "username": "Lezley Benzes"
+                },
+                {
+                    "email": "sanket@gmail.com",
+                    "progress": "0%",
+                    "role": "developer",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "See you"
+                        }
+                    ],
+                    "username": "sanket ganorkar"
+                }
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quam eaque facere nobis sit rerum nesciunt, architecto, nemo consequatur incidunt ab ullam, distinctio porro sequi?",
+            "name": "GTA 4"
+        },
+        {
+            "Ending_Date": "12/07/2015",
+            "ProjectStatus": "Completed",
+            "Project_Manager": "Sam Houser",
+            "Project_manager_mail": "samhouser6@gmail.com",
+            "Starting_Date": "01/01/2013",
+            "admin": "sairaj",
+            "Users": [
+                {
+                    "progress": "80%",
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "develop frontend"
+                        },
+                        {
+                            "status": "Completed",
+                            "task_name": "organise meetings"
+                        }
+                    ],
+                    "username": "sairaj rajput"
+                },
+                {
+                    "progress": "95%",
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "develop backend"
+                        },
+                        {
+                            "status": "Completed",
+                            "task_name": "review grpoup activities"
+                        }
+                    ],
+                    "username": "sanket ganorkar"
+                },
+                {
+                    "progress": "92%",
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "integrate changes"
+                        },
+                        {
+                            "status": "Completed",
+                            "task_name": "organise meetings"
+                        }
+                    ],
+                    "username": "vilas rabad"
+                },
+                {
+                    "progress": "69%",
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "Look for marketting stuffs"
+                        },
+                        {
+                            "status": "Completed",
+                            "task_name": "organise meetings"
+                        }
+                    ],
+                    "username": "tushar kalaskar"
+                },
+                {
+                    "progress": "94%",
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "See Clients"
+                        },
+                        {
+                            "status": "Completed",
+                            "task_name": "organise meetings"
+                        }
+                    ],
+                    "username": "sahil renapurkar"
+                }
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quam eaque facere nobis sit rerum nesciunt, architecto, nemo consequatur incidunt ab ullam, distinctio porro sequi?",
+            "name": "GTA 5"
+        },
+        {
+            "name": "GTA Vice City Definative Edition",
+            "description": "Testing: This game is in developing stage...",
+            "Starting_Date": "1998-06-30",
+            "Ending_Date": "2002-07-12",
+            "Users": [
+                {
+                    "email": "sairaj@mail.com",
+                    "progress": "0%",
+                    "role": "manager",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "Hi"
+                        }
+                    ],
+                    "username": "Lezley Benzes"
+                },
+                {
+                    "email": "sanket@gmail.com",
+                    "progress": "0%",
+                    "role": "developer",
+                    "status": 0,
+                    "tasks": [
+                        {
+                            "status": "Completed",
+                            "task_name": "See you"
+                        }
+                    ],
+                    "username": "sanket ganorkar"
+                }
+            ],
+            "ProjectStatus": "Pending",
+            "Project_Manager": "Lezley Benzes",
+            "Project_manager_mail": "sairaj@mail.com",
+            "admin": "sairaj desouza"
+        }
+    ]
+}

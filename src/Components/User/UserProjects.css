@@ -1,0 +1,44 @@
+.admin-projects {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.completed {
+    color: green;
+  }
+  
+  .status.ongoing {
+    color: orange;
+  }
+  
+  .status.not-completed {
+    color: red;
+  }
+  
+  .edit-project-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-project-button:hover {
+    background-color: #0056b3;
+  }
+  

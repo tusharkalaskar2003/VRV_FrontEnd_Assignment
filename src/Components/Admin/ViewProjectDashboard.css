@@ -1,0 +1,45 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light gray for background */
+  }
+  
+  .dashboard-table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark gray text */
+    background: #ffffff; /* White background */
+  }
+  
+  .dashboard-table th, 
+  .dashboard-table td {
+    border: 1px solid #000; /* Black border for classic theme */
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .dashboard-table th {
+    background: #000; /* Black background for header */
+    color: #fff; /* White text for header */
+    font-weight: bold;
+  }
+  
+  .dashboard-table tr:nth-child(even) {
+    background: #f9f9f9; /* Subtle gray for alternate rows */
+  }
+  
+  .dashboard-table tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  .dashboard-table tr:hover {
+    background: #e0e0e0; /* Highlight row on hover */
+  }
+  
+  .dashboard-table td {
+    font-size: 14px;
+  }
+  
