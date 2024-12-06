@@ -16,14 +16,14 @@ const handleSignout = async () => {
       });
 
       if (response.ok) {
-        // Clear token and role from local storage
+        
         localStorage.removeItem('authToken');
         localStorage.removeItem('level');
         localStorage.removeItem('role');
         localStorage.removeItem('current_user'); 
 
 
-        // Notify user
+        
         alert('You have are logged out successfully!');
 
         // Reload to reset state
