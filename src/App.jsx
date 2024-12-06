@@ -27,7 +27,6 @@ const router = createBrowserRouter([
     path: '/manager', 
     element : <ManagerDashBoard />,
   }
-
 ])
 
 function App() { 

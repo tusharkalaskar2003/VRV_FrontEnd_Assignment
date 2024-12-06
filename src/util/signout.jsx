@@ -24,7 +24,7 @@ const handleSignout = async () => {
 
 
         // Notify user
-        alert('You have been logged out successfully!');
+        alert('You have are logged out successfully!');
 
         // Reload to reset state
         window.location.href = '/';
